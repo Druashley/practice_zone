@@ -18,6 +18,8 @@
 
 <p id="five"></p>
 
+<p id="test3"></p>
+
 <p id="test"></p>
 
 <button onClick='myFunction()'>Click this</button>
@@ -49,13 +51,16 @@ fruits.unshift("Blackberry");
  // .length does the same thing as .push fruits[fruits.length] = "yellowmint";
 
 // fruits.splice(0, 1); //  can be used to remove elements
+
 // the first parameter looks where to start
+
 // the second parameter defines how many elements should be removed
 
+// delete fruits[0];  - This will 'delete' the first element. It marks it as undefined. Use pop or shift 	instead
 
 document.getElementById("demo2").innerHTML = fruits
 
-document.getElementById("demo3").innerHTML = fruits [2];
+document.getElementById("demo3").innerHTML = fruits [2]; // this calls the 3rd element in the string
 
 document.getElementById("five").innerHTML = cards.toString();
 
@@ -69,6 +74,11 @@ function myFunction(){
 	// Whatever var splice is set to will return the items removed
 }
 
+myTwoArrays = cards.concat(fruits); // whichever array is in the () will come after
+	// You can can .concat as many arrays as you want example of A having B and C array concat bellow
+	// A.concat( b, c );
+
+document.getElementById("test3").innerHTML = myTwoArrays;
 
 
 </script>
