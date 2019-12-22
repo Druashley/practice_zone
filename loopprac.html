@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Loop Practice</h2> 
+
+<h2></h2>
+
+<p></p>
+
+<p id="demo"></p>
+
+<p id="demo1"></p>
+
+<p id="demo2"></p>
+
+<p id="demo3"></p>
+
+<p id="five"></p>
+
+<p id="test3"></p>
+
+<p id="test"></p>
+
+
+<p id="test1"></p>
+<p id="test2"></p>
+
+<label for="search">Search by contact name: </label>
+<input id="search" type="text">
+<button>Search</button>
+
+<p></p>
+
+<script>
+//for (initializer; exit-condition; final-expression) {code to run here}
+  // the syntax for a loop in javascript
+  // Initializer - Usually a variable set to a number which increases with each loop
+  // exit-condition - When to stop
+  // final-expression - Always runs each time the loop has done an iteration. serves to increment
+
+var str = "";
+
+for (var i = 0; i < 9; i++) {
+  str = str + i;
+}
+
+document.getElementById("demo").innerHTML =str;
+// expected output: "012345678"
+
+
+//const cats = ['Bill', 'Jeff', 'Pete', 'Biggles', 'Jasmin'];
+//let info = 'My cats are called ';
+//const para = document.querySelector('p');
+
+// for (let i = 0; i < cats.length; i++) {
+//   info += cats[i] + ', ';
+// }
+
+//for (let i = 0; i < cats.length; i++) {
+//  if (i === cats.length - 1) {
+//    info += 'and ' + cats[i] + '.';
+//  } else {
+//    info += cats[i] + ', ';
+//  }
+//}
+//
+
+const contacts = ['Chris:2232322', 'Sarah:3453456', 'Bill:7654322', 'Mary:9998769', 'Dianne:9384975'];
+const para = document.querySelector('p');
+const input = document.querySelector('input');
+const btn = document.querySelector('button');
+
+btn.addEventListener('click', function() {
+  let searchName = input.value.toLowerCase();
+  input.value = '';
+  input.focus();
+  for (let i = 0; i < contacts.length; i++) {
+    let splitContact = contacts[i].split(':');
+    if (splitContact[0].toLowerCase() === searchName) {
+      para.textContent = splitContact[0] + '\'s number is ' + splitContact[1] + '.';
+      break;
+    } else {
+      para.textContent = 'Contact not found.';
+    }
+  }
+});
+
+
+document.getElementById("demo1").innerHTML = info;
+
+
+
+
+
+</script>
+
+</body>
+</html>
