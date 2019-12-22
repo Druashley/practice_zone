@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3> Testing things in console</h3>
+
+<script>
+
+
+
+let rps;
+
+rps = Math.random();
+
+if (rps < .33){
+	computerAnswer = "Rock";
+}else if ( rps < .66 ) {
+	computerAnswer = "Paper";
+} else {
+	computerAnswer = ("Scissors");
+}
+
+console.log(computerAnswer);
+
+function rockChecker(str1, str2)
+    {
+   console.log (str1.toUpperCase()===str2.toUpperCase());
+    } // isEqual
+
+rockChecker(computerAnswer, "rock");
+
+
+let age;
+
+age = "123";
+
+switch (age) {
+	case "123": 
+		console.log("The baby can cry.")
+		break;
+	case "paper":
+		console.log("The baby can crawl.")
+		break;
+	case "scissors":
+		console.log("The baby can talk.")
+	break;
+	default:
+	console.log("I don't know how old you are.")
+
+
+}
+
+
+
+//function add7(number) {
+//	console.log(number + 7 + ", this is the number plus 7");
+//}
+//add7(1);
+//add7(5);
+//add7(62);
+
+///function multiply(numberOne, numberTwo){
+//	console.log (numberOne * numberTwo);
+//}
+
+//multiply(1, 3);
+//multiply(2, 3);
+//multiply(3, 3); 
+
+//function capitalize(word) {
+//	console.log (word.substring(0,1).toUpperCase() + word.substring(1));
+//}
+//capitalize("you don't know jack");
+
+
+//function lastLetter(word){
+//	console.log (word.charAt(word.length -1));
+//}
+
+//astLetter("abcasdasddwewe");
+//lastLetter("Yeet");
+
+</script>
+
+</body>
+</html>
