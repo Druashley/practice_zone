@@ -1,0 +1,1 @@
+12-22-19: This is going to be an area where I log and store the information I am practicing. My goal is to use this as a cheatsheet for things I have been practicing. More or less my notes ~
