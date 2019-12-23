@@ -26,11 +26,6 @@
 <p id="test1"></p>
 <p id="test2"></p>
 
-<label for="search">Search by contact name: </label>
-<input id="search" type="text">
-<button>Search</button>
-
-<p></p>
 
 <script>
 //for (initializer; exit-condition; final-expression) {code to run here}
@@ -39,14 +34,46 @@
   // exit-condition - When to stop
   // final-expression - Always runs each time the loop has done an iteration. serves to increment
 
-var str = "";
+//var str1 = "Hey";
 
-for (var i = 0; i < 9; i++) {
-  str = str + i;
+//for (var i = 0; i < 9; i++) {
+//  str = str + i;
+//}
+
+//var str = "";
+//
+//for (var i = 0; i < 9; i++) {
+//  str = str + "hey";
+//}
+//
+//
+//
+//const repeatString = function(x, var21) {
+//  for (var i = 0; i < 4; i++){
+//    return x = x + "hey";
+//  }
+
+//}
+//console.log(repeatString("hey"), 3);
+
+function howManyCats (var1, var2) {
+  var catCount = "";
+
+  if (var2 > 0){
+  while (var2 > 0){
+    catCount += var1;
+    var2--;
+  }
+  return catCount
+  else return ("ERROR")
 }
 
-document.getElementById("demo").innerHTML =str;
-// expected output: "012345678"
+
+document.getElementById("demo").innerHTML = (howManyCats('hey',100));
+
+//document.getElementById("demo").innerHTML =str;
+
+/// expected output: "012345678"
 
 
 //const cats = ['Bill', 'Jeff', 'Pete', 'Biggles', 'Jasmin'];
@@ -66,28 +93,28 @@ document.getElementById("demo").innerHTML =str;
 //}
 //
 
-const contacts = ['Chris:2232322', 'Sarah:3453456', 'Bill:7654322', 'Mary:9998769', 'Dianne:9384975'];
-const para = document.querySelector('p');
-const input = document.querySelector('input');
-const btn = document.querySelector('button');
+//const contacts = ['Chris:2232322', 'Sarah:3453456', 'Bill:7654322', 'Mary:9998769', 'Dianne:9384975'];
+//const para = document.querySelector('p');
+//const input = document.querySelector('input');
+//const btn = document.querySelector('button');
+//
+//btn.addEventListener('click', function() {
+//  let searchName = input.value.toLowerCase();
+ // input.value = '';
+ // input.focus();
+ // for (let i = 0; i < contacts.length; i++) {
+ //   let splitContact = contacts[i].split(':');
+ //   if (splitContact[0].toLowerCase() === searchName) {
+  //    para.textContent = splitContact[0] + '\'s number is ' + splitContact[1] + '.';
+ //     break;
+//    } else {
+ //     para.textContent = 'Contact not found.';
+//    }
+//  }
+//});
 
-btn.addEventListener('click', function() {
-  let searchName = input.value.toLowerCase();
-  input.value = '';
-  input.focus();
-  for (let i = 0; i < contacts.length; i++) {
-    let splitContact = contacts[i].split(':');
-    if (splitContact[0].toLowerCase() === searchName) {
-      para.textContent = splitContact[0] + '\'s number is ' + splitContact[1] + '.';
-      break;
-    } else {
-      para.textContent = 'Contact not found.';
-    }
-  }
-});
 
-
-document.getElementById("demo1").innerHTML = info;
+//document.getElementById("demo1").innerHTML = info;
 
 
 
