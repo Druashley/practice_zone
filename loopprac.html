@@ -56,25 +56,40 @@
 //}
 //console.log(repeatString("hey"), 3);
 
-function howManyCats (var1, var2) {
-  var catCount = "";
+//function howManyCats (var1, var2) {
+//  var catCount = "";
+//
+//  if (var2 > 0){
+//  while (var2 > 0){
+//    catCount += var1;
+//    var2--;
+//  }
+//  return catCount
+//  else return ("ERROR")
+//}
+// document.getElementById("demo").innerHTML = (howManyCats('hey',100));
 
-  if (var2 > 0){
-  while (var2 > 0){
-    catCount += var1;
-    var2--;
-  }
-  return catCount
-  else return ("ERROR")
-}
-
-
-document.getElementById("demo").innerHTML = (howManyCats('hey',100));
+//document.getElementById("demo").innerHTML = (howManyCats('hey',100));
 
 //document.getElementById("demo").innerHTML =str;
 
 /// expected output: "012345678"
 
+const dogs = ["Tropper", "Pepper", "Salt", "Chippers"];
+
+dogNames = "";
+
+for (i = 0; i < dogs.length; i++){
+  if (i === 0) {
+    (dogNames = dogNames + " " + dogs[i]); 
+  }else if (i === dogs.length - 1){
+    (dogNames = dogNames + ", and " + dogs[i]);
+  }else 
+    (dogNames = dogNames + ", " + dogs[i]);
+  
+}
+
+console.log("My Dogs names are: " + dogNames)
 
 //const cats = ['Bill', 'Jeff', 'Pete', 'Biggles', 'Jasmin'];
 //let info = 'My cats are called ';
