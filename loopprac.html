@@ -91,6 +91,23 @@ for (i = 0; i < dogs.length; i++){
 
 console.log("My Dogs names are: " + dogNames)
 
+//phrase = "Hello";
+//reversePhrase = "";
+
+
+function reverseChecker(var1) {
+  phrase = var1.split("");
+  reversePhrase = "";
+
+  for(i = phrase.length - 1; i >= 0; i--) {
+    reversePhrase = reversePhrase + phrase[i]
+  }
+  return(reversePhrase)
+}
+
+console.log(reverseChecker("YEET")
+
+  
 //const cats = ['Bill', 'Jeff', 'Pete', 'Biggles', 'Jasmin'];
 //let info = 'My cats are called ';
 //const para = document.querySelector('p');
