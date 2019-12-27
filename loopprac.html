@@ -105,9 +105,36 @@ function reverseChecker(var1) {
   return(reversePhrase)
 }
 
-console.log(reverseChecker("YEET")
+console.log(reverseChecker(""));
 
-  
+function sum(...theArgs){
+  let list = [""];
+
+
+  for (i = 0; i < theArgs.length; i++){
+    list =list.concat(theArgs[i]);
+  }
+
+  list.shift();
+
+  if ( list.indexOf(5) > -1){
+    list.
+  } else {
+    console.log("There is not a five")
+  }
+
+  return list;
+
+}
+
+console.log(sum(4, 5 , 10 ));
+
+
+
+
+
+
+
 //const cats = ['Bill', 'Jeff', 'Pete', 'Biggles', 'Jasmin'];
 //let info = 'My cats are called ';
 //const para = document.querySelector('p');
