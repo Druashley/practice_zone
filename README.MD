@@ -11,3 +11,5 @@
 12-26-19: Chirstmas was great. Excited to get back into learning! today I am going to recap on some of the things I have learned this far. Not going to do too much. I may work on the odinproject javascript exercieses. I have only completed the first two. I may start the third today.
 
 12-26-19: I was able to complete the reverse string! I am very proud of myself! 
+
+12-27-19: Worked on some more loops. Trying to create a loop that will take some arguments, create an array, and then remove any given string out of the array. It has been a bit d ifficult so far. But I feel like my solution is right around the corner. Taking a break for now. Worked for 2 hours.
