@@ -75,7 +75,7 @@
 
 /// expected output: "012345678"
 
-const dogs = ["Tropper", "Pepper", "Salt", "Chippers"];
+const dogs = ["Trooper", "Pepper", "Salt", "Chippers"];
 
 dogNames = "";
 
@@ -105,34 +105,26 @@ function reverseChecker(var1) {
   return(reversePhrase)
 }
 
-console.log(reverseChecker(""));
-
-function sum(...theArgs){
-  let list = [""];
+console.log(reverseChecker("YEET"));
 
 
-  for (i = 0; i < theArgs.length; i++){
-    list =list.concat(theArgs[i]);
-  }
+teams = ["LSU", "OU", "Oregon", 4];
 
-  list.shift();
+function removeElement (a, search){
+  let aray = [...a];
+  let xy = aray.indexOf(search);
 
-  if ( list.indexOf(5) > -1){
-    list.
-  } else {
-    console.log("There is not a five")
-  }
+  if (xy > -1){
+    aray.splice(xy, 1);
+  } else return aray
 
-  return list;
 
+  return aray
 }
 
-console.log(sum(4, 5 , 10 ));
+console.log(removeElement((["LSU", "OU", "Oregon", 4]), "LSU"))
 
-
-
-
-
+const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 
 
 //const cats = ['Bill', 'Jeff', 'Pete', 'Biggles', 'Jasmin'];
