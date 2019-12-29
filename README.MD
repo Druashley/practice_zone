@@ -15,3 +15,5 @@
 12-27-19: Worked on some more loops. Trying to create a loop that will take some arguments, create an array, and then remove any given string out of the array. It has been a bit d ifficult so far. But I feel like my solution is right around the corner. Taking a break for now. Worked for 2 hours.
 
 12-28-19: Worked on removing a given string from an array. Figured out how to do it. But I am having difficulties having the function accept multiple strings to be removed. Taking a break for nbow. Worked for about 2 hours!
+
+12-29-19: Going to stream my learning session today! Hopefully will get past this array problem!
