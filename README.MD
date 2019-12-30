@@ -19,3 +19,5 @@
 12-29-19: Going to stream my learning session today! Hopefully will get past this array problem!
 
 12-29-19: Worked for about 3 hours! Got a bunch done! Learned "||" and got to the last exercise in the Javascript-exercises on the odin project. Will keep pushing forward!
+
+12-30-19: Starting my coding day at 1:37. hoping to go until about 4PM! Going to do my best to finish the last two exercises.
