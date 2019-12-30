@@ -137,6 +137,30 @@
 
 // }
 
+// Below is a leap Year Checker! Made this program in 55 minutes!
+// function leapYearChecker(year){
+  
+//   let yearByFour = (year / 4);
+//   let yearByFourHundred = (year / 400);
+//   let yearByOneHundred = (year / 100);
+
+//   if (yearByFourHundred % 1 === 0){
+//     return "true1"}
+//   else if (yearByOneHundred % 1 === 0 ) {
+//     return "false"
+//   } else if (yearByFour % 1 === 0) {
+//     return "True3"
+//   }
+//   else return false;
+
+
+// }
+
+// console.log(leapYear(700))
+
+
+
+
 
 
 
@@ -156,31 +180,31 @@
 // console.log(removeElement(myArray, "Hello" ))
 // MysticSeagull came up with this wonderful solution!
 
-function sum (start, end) {
-  let total = 0;
-  let startChecker = typeof(start);
-  let endChecker = typeof(end);
-  if (startChecker != "number" || endChecker != "number" || start < 0 || end < 0 ){
-    return ("ERROR")
-  } if (start < end) {
-    while (start <= end ){ 
-      total = total + start;
-      start++;
-    }
-    return total
-  } else if (start > end) {
+// function sum (start, end) {
+//   let total = 0;
+//   let startChecker = typeof(start);
+//   let endChecker = typeof(end);
+//   if (startChecker != "number" || endChecker != "number" || start < 0 || end < 0 ){
+//     return ("ERROR")
+//   } if (start < end) {
+//     while (start <= end ){ 
+//       total = total + start;
+//       start++;
+//     }
+//     return total
+//   } else if (start > end) {
 
-    while (end <= start ) {
-      total = total + end;
-      end++;
-    }
-      return total
-  }
-    else { return ("ERROR1")}
+//     while (end <= start ) {
+//       total = total + end;
+//       end++;
+//     }
+//       return total
+//   }
+//     else { return ("ERROR1")}
   
-}
+// }
 
-console.log(sum(-10, 4));
+// console.log(sum(1, 4));
 
 
 
