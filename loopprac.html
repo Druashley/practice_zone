@@ -75,56 +75,113 @@
 
 /// expected output: "012345678"
 
-const dogs = ["Trooper", "Pepper", "Salt", "Chippers"];
+// const dogs = ["Trooper", "Pepper", "Salt", "Chippers"];
 
-dogNames = "";
+// dogNames = "";
 
-for (i = 0; i < dogs.length; i++){
-  if (i === 0) {
-    (dogNames = dogNames + " " + dogs[i]); 
-  }else if (i === dogs.length - 1){
-    (dogNames = dogNames + ", and " + dogs[i]);
-  }else 
-    (dogNames = dogNames + ", " + dogs[i]);
+// for (i = 0; i < dogs.length; i++){
+//   if (i === 0) {
+//     (dogNames = dogNames + " " + dogs[i]); 
+//   }else if (i === dogs.length - 1){
+//     (dogNames = dogNames + ", and " + dogs[i]);
+//   }else 
+//     (dogNames = dogNames + ", " + dogs[i]);
   
-}
+// }
 
-console.log("My Dogs names are: " + dogNames)
+//  console.log("My Dogs names are: " + dogNames)
 
 //phrase = "Hello";
 //reversePhrase = "";
 
 
-function reverseChecker(var1) {
-  phrase = var1.split("");
-  reversePhrase = "";
+// function reverseChecker(var1) {
+//   phrase = var1.split("");
+//   reversePhrase = "";
 
-  for(i = phrase.length - 1; i >= 0; i--) {
-    reversePhrase = reversePhrase + phrase[i]
+//   for(i = phrase.length - 1; i >= 0; i--) {
+//     reversePhrase = reversePhrase + phrase[i]
+//   }
+//   return(reversePhrase)
+// }
+
+// console.log(reverseChecker("YEET"));
+
+
+// function removeThis([...a], b, c, d, e){
+
+  
+// let aray = [...a];
+
+
+
+
+// let removeThisElement = aray.indexOf(b)
+
+// aray.splice(removeThisElement,1)
+
+// //let removeThisElementTwo = aray.indexOf(c)
+
+// //aray.splice(removeThisElementTwo,1)
+
+// // let removeThisElementThree = aray.indexOf(d)
+
+// // aray.splice(removeThisElementThree,1)
+
+// // let removeThisElementFour = aray.indexOf(e)
+
+// // aray.splice(removeThisElementFour,1)
+
+
+// return aray 
+
+// }
+
+
+
+
+// console.log(removeThis(["hello", 3, 5, 9, "hi", "bye", "Seagull"], (5) ));
+
+// var myArray = ["Hello", 1, 4, 6, "k", "1"];
+
+// function removeElement(arr, ...args) {
+// console.log(args)
+//     for(i = 0; i < args.length; i++) {
+//         arr.splice(arr.indexOf(args[i]), 1);
+//     }
+
+//     return arr;
+// }
+
+// console.log(removeElement(myArray, "Hello" ))
+// MysticSeagull came up with this wonderful solution!
+
+function sum (start, end) {
+  let total = 0;
+  let startChecker = typeof(start);
+  let endChecker = typeof(end);
+  if (startChecker != "number" || endChecker != "number" || start < 0 || end < 0 ){
+    return ("ERROR")
+  } if (start < end) {
+    while (start <= end ){ 
+      total = total + start;
+      start++;
+    }
+    return total
+  } else if (start > end) {
+
+    while (end <= start ) {
+      total = total + end;
+      end++;
+    }
+      return total
   }
-  return(reversePhrase)
+    else { return ("ERROR1")}
+  
 }
 
-console.log(reverseChecker("YEET"));
+console.log(sum(-10, 4));
 
-
-teams = ["LSU", "OU", "Oregon", 4];
-
-function removeElement (a, search){
-  let aray = [...a];
-  let xy = aray.indexOf(search);
-
-  if (xy > -1){
-    aray.splice(xy, 1);
-  } else return aray
-
-
-  return aray
-}
-
-console.log(removeElement((["LSU", "OU", "Oregon", 4]), "LSU"))
-
-const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 
 
 //const cats = ['Bill', 'Jeff', 'Pete', 'Biggles', 'Jasmin'];
