@@ -17,3 +17,5 @@
 12-28-19: Worked on removing a given string from an array. Figured out how to do it. But I am having difficulties having the function accept multiple strings to be removed. Taking a break for nbow. Worked for about 2 hours!
 
 12-29-19: Going to stream my learning session today! Hopefully will get past this array problem!
+
+12-29-19: Worked for about 3 hours! Got a bunch done! Learned "||" and got to the last exercise in the Javascript-exercises on the odin project. Will keep pushing forward!
