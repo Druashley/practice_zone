@@ -23,3 +23,5 @@
 12-30-19: Starting my coding day at 1:37. hoping to go until about 4PM! Going to do my best to finish the last two exercises.
 
 12-30-19: Finished today with a bunch done! Finished the rest of the javascript exercises. Really happy with how strong I was able to finish the tasks. Last few did not take that long IMO. Streamed for 3 hours today! and I am writing this at 4:33PM! Another great day in the bags. Happy, motivated, and looking forward to coding tomorrow! 
+
+12-31-19: It is the last day of the year! A new decade ahead! Lets finish strong with a little coding. I will work on DOM manipulation today. This topic seems very dense! But I know I can learn it with enough time.
