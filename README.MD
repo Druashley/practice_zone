@@ -21,3 +21,5 @@
 12-29-19: Worked for about 3 hours! Got a bunch done! Learned "||" and got to the last exercise in the Javascript-exercises on the odin project. Will keep pushing forward!
 
 12-30-19: Starting my coding day at 1:37. hoping to go until about 4PM! Going to do my best to finish the last two exercises.
+
+12-30-19: Finished today with a bunch done! Finished the rest of the javascript exercises. Really happy with how strong I was able to finish the tasks. Last few did not take that long IMO. Streamed for 3 hours today! and I am writing this at 4:33PM! Another great day in the bags. Happy, motivated, and looking forward to coding tomorrow! 
