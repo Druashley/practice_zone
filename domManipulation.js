@@ -4,19 +4,23 @@ const buttonOne = document.getElementById('1');
 
 buttonOne.addEventListener('click', function (e){
   contentTwo.appendChild(alterTwo);
+  buttonOne.classList.add('buttonChange')
 });
 
 const buttonTwo = document.getElementById('2');
 
 buttonTwo.addEventListener('click', function (e){
-  console.log(2);
+  title.classList.toggle('buttonChange');
 })
 
 const buttonThree = document.getElementById('3');
 
 buttonThree.addEventListener('click', function (e){
-  console.log(3);
+  buttonThree.classList.add('buttonChange')
 });
+
+const title = document.getElementById('title')
+
 
 const alterTwo = document.createElement('p');
 
@@ -38,9 +42,24 @@ contentTwo.style.cssText = 'color: red;'
 const containerThree = document.querySelector('#containerThree');
 
 const contentThree = document.createElement('h3');
-contentThree.classList.add('content');
+// contentThree.classList.add('content');
 contentThree.textContent = "I am a blue h3";
-contentThree.style.cssText = 'color: blue;'
+// contentThree.style.cssText = 'color: blue;'
+
+
+
+const lineOneChange = document.querySelector('.lineOneChange');
+const buttonFour = document.getElementById('4');
+
+buttonFour.addEventListener('click', function(){
+  const newLi = document.createElement('marquee');
+  const liContent = document.createTextNode(lineOneChange.value);
+
+  newLi.appendChild(liContent);
+
+  title.appendChild(newLi);
+
+});
 
 
 // const hOneTest = document.createElement('h1');

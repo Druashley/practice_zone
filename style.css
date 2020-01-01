@@ -1,0 +1,19 @@
+body {
+    background-color: grey;
+}
+
+.buttonChange {
+    color: rgb(53, 35, 199);
+    font-size: 30px;
+    border: seagreen dotted;
+}
+
+.footer {
+    color: yellow;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: steelblue;
+    text-align: center;
+}
