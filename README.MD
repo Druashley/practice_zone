@@ -31,3 +31,5 @@
 1-1-20: NEW YEAR NEW ME! Getting a late night practice sesh in. Starting at 6:15PM. Ducks won the Rose Bowl today against WI.
 
 1-1-20: With some help from MysticSeagull and ImExplosive, recreated the Rock, Paper, Scissors game (aka v2)! Super happy with the results. Tomorrow I am going to focus on CSS adjustments of this project and  then I will merge it into the odin project's directory!! Lets send it! Finished around 9:37PM. A good 3 hours in the bag! Streamed the sesh!
+
+1-2-20: I will be cleaning up the RPSv2 project that was more or less completed last night. Hoping to make it look decent. I want to add some CSS and HTML to the project. Starting at 1:18PM and I am streaming today.
