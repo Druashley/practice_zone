@@ -26,4 +26,6 @@
 
 12-31-19: It is the last day of the year! A new decade ahead! Lets finish strong with a little coding. I will work on DOM manipulation today. This topic seems very dense! But I know I can learn it with enough time.
 
-12:31: Coded for 3 hours! Learned a ton about DOM Manipulation. Clearly this is going to be huge! Very happy with what my brain was able to understand today! Also did the first javascript 30 exercise that the odin project recommended. This will be something I will want to return to. I was able to replicate but it would be very difficult to generate a similar project on my own. #GOALS
+12-31-19: Coded for 3 hours! Learned a ton about DOM Manipulation. Clearly this is going to be huge! Very happy with what my brain was able to understand today! Also did the first javascript 30 exercise that the odin project recommended. This will be something I will want to return to. I was able to replicate but it would be very difficult to generate a similar project on my own. #GOALS
+
+1-1-20: NEW YEAR NEW ME! Getting a late night practice sesh in. Starting at 6:15PM. Ducks won the Rose Bowl today against WI.
