@@ -29,3 +29,5 @@
 12-31-19: Coded for 3 hours! Learned a ton about DOM Manipulation. Clearly this is going to be huge! Very happy with what my brain was able to understand today! Also did the first javascript 30 exercise that the odin project recommended. This will be something I will want to return to. I was able to replicate but it would be very difficult to generate a similar project on my own. #GOALS
 
 1-1-20: NEW YEAR NEW ME! Getting a late night practice sesh in. Starting at 6:15PM. Ducks won the Rose Bowl today against WI.
+
+1-1-20: With some help from MysticSeagull and ImExplosive, recreated the Rock, Paper, Scissors game (aka v2)! Super happy with the results. Tomorrow I am going to focus on CSS adjustments of this project and  then I will merge it into the odin project's directory!! Lets send it! Finished around 9:37PM. A good 3 hours in the bag! Streamed the sesh!
