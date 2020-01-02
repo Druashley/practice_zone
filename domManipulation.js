@@ -62,6 +62,37 @@ buttonFour.addEventListener('click', function(){
 });
 
 
+
+let sumField = document.querySelector('.sumField')
+
+ 
+let score = 0;
+
+const scoreLine = document.querySelector('.scoreLine');
+
+scoreLine.textContent = "Your score is: " + score;
+
+const sumButton = document.querySelector('.sumButton');
+
+sumButton.addEventListener('click', function(){
+  score += sumField.valueAsNumber;
+  scoreLine.textContent = "Your score is: " + score;
+});
+
+const multiplicationButton = document.getElementById('multiplicationButton');
+const multiplicationField = document.getElementById('multiplicationField');
+
+multiplicationButton.addEventListener('click', function () {
+  score = score * multiplicationField.valueAsNumber;
+  scoreLine.textContent = "Your score is: " + score;
+ });
+
+function divideThis(){
+  score = score / multiplicationField.valueAsNumber;
+  scoreLine.textContent = "Your score is: " + score;
+}
+
+
 // const hOneTest = document.createElement('h1');
 // hOneTest.textContent = "I'm a div";
 
