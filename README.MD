@@ -33,3 +33,5 @@
 1-1-20: With some help from MysticSeagull and ImExplosive, recreated the Rock, Paper, Scissors game (aka v2)! Super happy with the results. Tomorrow I am going to focus on CSS adjustments of this project and  then I will merge it into the odin project's directory!! Lets send it! Finished around 9:37PM. A good 3 hours in the bag! Streamed the sesh!
 
 1-2-20: I will be cleaning up the RPSv2 project that was more or less completed last night. Hoping to make it look decent. I want to add some CSS and HTML to the project. Starting at 1:18PM and I am streaming today.
+
+1-2-20: Finished coding at 4:35PM! Finshed the RPSv2 project and uploaded it to the answer's on the Odin's git! Very happy with the results. Learned a ton from it. Next project for the odin project is an Etch-A-Sketch. This task looks like it is going to be very involved. Got a good start on it today, will take multiple sessions for me to complete it. 
