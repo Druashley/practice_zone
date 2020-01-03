@@ -35,3 +35,5 @@
 1-2-20: I will be cleaning up the RPSv2 project that was more or less completed last night. Hoping to make it look decent. I want to add some CSS and HTML to the project. Starting at 1:18PM and I am streaming today.
 
 1-2-20: Finished coding at 4:35PM! Finshed the RPSv2 project and uploaded it to the answer's on the Odin's git! Very happy with the results. Learned a ton from it. Next project for the odin project is an Etch-A-Sketch. This task looks like it is going to be very involved. Got a good start on it today, will take multiple sessions for me to complete it. 
+
+1-3-20: Starting to code today at 12:47. Feeling great! Today I will start to really build this Etch-a-Sketch program. Time to learn! Hoping to code for 2 - 4 hours today. Also, added 3 panels on my twitch for basic info!
