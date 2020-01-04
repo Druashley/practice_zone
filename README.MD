@@ -41,3 +41,6 @@
 1-3-20: Huge steps made in the Etch-a-Sketch project. Learned a great deal about eventlisteners, and using a grid. Tons of more to learn, but getting better everyday! Stopped at 4:59PM. So a good 4 hour day in the bags! 
 
 1-4-20: Starting to c ode around 12:05PM. Today I am hoping to finish this Etch-a-Sketch project. It is pretty much done now. Hoping to add a few more things today.
+
+1-4-20: Finished the Etch a Sketch. Added some other features to it that I am proud of. Next up I will be learning about objects in more detail. Very confusing so far, but I think I will get the hang of it. Worked until 3:04 for about a total of 3 hours today! Looking forward to tomorrow.
+
