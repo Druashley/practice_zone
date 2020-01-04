@@ -39,3 +39,5 @@
 1-3-20: Starting to code today at 12:47. Feeling great! Today I will start to really build this Etch-a-Sketch program. Time to learn! Hoping to code for 2 - 4 hours today. Also, added 3 panels on my twitch for basic info!
 
 1-3-20: Huge steps made in the Etch-a-Sketch project. Learned a great deal about eventlisteners, and using a grid. Tons of more to learn, but getting better everyday! Stopped at 4:59PM. So a good 4 hour day in the bags! 
+
+1-4-20: Starting to c ode around 12:05PM. Today I am hoping to finish this Etch-a-Sketch project. It is pretty much done now. Hoping to add a few more things today.
