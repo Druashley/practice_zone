@@ -45,3 +45,5 @@
 1-4-20: Finished the Etch a Sketch. Added some other features to it that I am proud of. Next up I will be learning about objects in more detail. Very confusing so far, but I think I will get the hang of it. Worked until 3:04 for about a total of 3 hours today! Looking forward to tomorrow.
 
 1-5-20: Happy sunday! Working on some mroe javascript exercises from the odin project. https://github.com/TheOdinProject/javascript-exercises . Calculator, palindromes, caesar, fibonacci, geTheTitles, findTheOldest are all of the exercises I need to do. I am hoping to compelte these within a few days(2-3). Today will be a short stream and coding session, hoping to get about 2 hours in. Today's start time is 11:53AM.
+
+1-5-20: Finishing up today's session at 2:05PM. Today went pretty good. Finished the calc and palindrome exercises. Lots of more practice to be had. 
