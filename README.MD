@@ -47,3 +47,5 @@
 1-5-20: Happy sunday! Working on some mroe javascript exercises from the odin project. https://github.com/TheOdinProject/javascript-exercises . Calculator, palindromes, caesar, fibonacci, geTheTitles, findTheOldest are all of the exercises I need to do. I am hoping to compelte these within a few days(2-3). Today will be a short stream and coding session, hoping to get about 2 hours in. Today's start time is 11:53AM.
 
 1-5-20: Finishing up today's session at 2:05PM. Today went pretty good. Finished the calc and palindrome exercises. Lots of more practice to be had. 
+
+1-6-20: Going to continue on learning objects. I have watched a few videos over the last few days on the topic, I want to go more in-depth today. I will probably do one exercise after! Starting the stream at 2:07PM.
