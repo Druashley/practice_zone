@@ -2,26 +2,62 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Function scope example</title>
+  <title>Caesar prac</title>
 </head>
 <body>
 
   <script>
-    let x = 1;
+ // const template = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
-    function a() {
-      let y = 2;
-      output(z);
-    }
-    function b() {
-      let z = 3;
-      output(y);
-    }
-    function output(value) {
-      const para = document.createElement('p');
-      document.body.appendChild(para);
-      para.textContent = 'Value: ' + value;
-    }
+
+
+// function OffsetLetterByThree(letter) {
+// 	return String.fromCharCode(letter.charCodeAt(0) + 3);
+// }
+// console.log(OffsetLetterByThree("A")); // returns D
+
+
+
+   
+
+// function ceaserCypher(str, key) {
+//   let decipher = '';
+  
+//   //decipher each letter
+//   for(let i = 0; i < str.length; i++){
+//       decipher += String.fromCharCode((str.charCodeAt(i) + key - 97) % 26 + 97);
+//   }
+  
+  
+//   return decipher;
+// }
+
+// console.log(ceaserCypher('Mjqqt, Btwqi!', -5))
+
+plaintext = "DEFEND THE EAST WALL OF THE CASTLE";  
+var key = -3;
+ciphertext = "";    var re = /[a-z]/;
+for(i=0; i<plaintext.length; i++){ 
+   if(re.test(plaintext.charAt(i))) ciphertext += String.fromCharCode((plaintext.charCodeAt(i) - 97 + key)%26 + 97); 
+   else ciphertext += plaintext.charAt(i); 
+} 
+
+// deciphering
+plaintext2 = "";    
+for(i=0; i<ciphertext.length; i++){ 
+    if(re.test(ciphertext.charAt(i))) plaintext2 += String.fromCharCode((ciphertext.charCodeAt(i) - 97 + 26 - key)%26 + 97); 
+    else plaintext += ciphertext.charAt(i); 
+} 
+
+console.log(plaintext);
+console.log(ciphertext);
+console.log(plaintext2);
+
+
+
+
+
+
   </script>
 </body>
 </html>
