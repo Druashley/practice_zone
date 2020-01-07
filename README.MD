@@ -1,4 +1,4 @@
-12-22-19: This is going to be an area where I log and store the information I am practicing. My goal is to use this as a cheatsheet for things I have been practicing. More or less my notes ~
+g12-22-19: This is going to be an area where I log and store the information I am practicing. My goal is to use this as a cheatsheet for things I have been practicing. More or less my notes ~
 
 12-22-19: Finished working on ARRAYS - It went really well. Happy with how the test went at the end of. https://www.w3schools.com/js/js_array_methods.asp - Next step is Loop practice
 
@@ -49,3 +49,5 @@
 1-5-20: Finishing up today's session at 2:05PM. Today went pretty good. Finished the calc and palindrome exercises. Lots of more practice to be had. 
 
 1-6-20: Going to continue on learning objects. I have watched a few videos over the last few days on the topic, I want to go more in-depth today. I will probably do one exercise after! Starting the stream at 2:07PM.
+
+1-7-20: Stopping at 4:23 today. Rough day. I tried to work on the Caesar's problem in the javascript exercises and my brain nearly blew up. Going to watch some videos on the topic off stream and get back at it tomorrow. I have a lot of work ahead of me. I am enjoying it though. 
