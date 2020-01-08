@@ -53,3 +53,5 @@ g12-22-19: This is going to be an area where I log and store the information I a
 1-6-20: Stopping at 4:23 today. Rough day. I tried to work on the Caesar's problem in the javascript exercises and my brain nearly blew up. Going to watch some videos on the topic off stream and get back at it tomorrow. I have a lot of work ahead of me. I am enjoying it though. 
 
 1-7-20: Went through a few codewars projects today. Also, last night and this morning I created a rpg style game. I will be adding this to github later on. Thank you to Barry, Mystic, and Graceful for helping out today. Did a 3 and a half hour stream!  
+
+1-8-20: Today's goal is to work on some codewars. Had a great idea of turning this readme file into a simple website. I already use it like a journal and I have the skills now to put something together. Continuing to take break on the Odin Project for the time being. Using my time at the moment to practice what I have learned. 
