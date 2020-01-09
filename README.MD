@@ -56,4 +56,6 @@
 
 1-8-20: Today's goal is to work on some codewars. Had a great idea of turning this readme file into a simple website. I already use it like a journal and I have the skills now to put something together. Continuing to take break on the Odin Project for the time being. Using my time at the moment to practice what I have learned.
 
-1-9-20: Today went great. Impressed with how far the Journal project has went. I am going to have to learn about file storage now. Hopefully within a week I will be able to have my journal completed over there. Shout out to crowprogramming, Acocordingtobo, Mysticseagull, iamgotenks for hanging out! 167 minutes streamed.
+1-8-20: Today went great. Impressed with how far the Journal project has went. I am going to have to learn about file storage now. Hopefully within a week I will be able to have my journal completed over there. Shout out to crowprogramming, Acocordingtobo, Mysticseagull, iamgotenks for hanging out! 167 minutes streamed.
+
+1-9-20: Watched a ton of videos after stream last night and this morning. Bo send a crazy mockup of the journal project I am trying to create. He used a lot of things I can learn from. Starting today at 1:50PM.
