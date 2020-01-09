@@ -1,4 +1,4 @@
-g12-22-19: This is going to be an area where I log and store the information I am practicing. My goal is to use this as a cheatsheet for things I have been practicing. More or less my notes ~
+12-22-19: This is going to be an area where I log and store the information I am practicing. My goal is to use this as a cheatsheet for things I have been practicing. More or less my notes ~
 
 12-22-19: Finished working on ARRAYS - It went really well. Happy with how the test went at the end of. https://www.w3schools.com/js/js_array_methods.asp - Next step is Loop practice
 
@@ -54,4 +54,6 @@ g12-22-19: This is going to be an area where I log and store the information I a
 
 1-7-20: Went through a few codewars projects today. Also, last night and this morning I created a rpg style game. I will be adding this to github later on. Thank you to Barry, Mystic, and Graceful for helping out today. Did a 3 and a half hour stream!  
 
-1-8-20: Today's goal is to work on some codewars. Had a great idea of turning this readme file into a simple website. I already use it like a journal and I have the skills now to put something together. Continuing to take break on the Odin Project for the time being. Using my time at the moment to practice what I have learned. 
+1-8-20: Today's goal is to work on some codewars. Had a great idea of turning this readme file into a simple website. I already use it like a journal and I have the skills now to put something together. Continuing to take break on the Odin Project for the time being. Using my time at the moment to practice what I have learned.
+
+1-9-20: Today went great. Impressed with how far the Journal project has went. I am going to have to learn about file storage now. Hopefully within a week I will be able to have my journal completed over there. Shout out to crowprogramming, Acocordingtobo, Mysticseagull, iamgotenks for hanging out!
