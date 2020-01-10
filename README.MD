@@ -61,3 +61,5 @@
 1-9-20: Watched a ton of videos after stream last night and this morning. Bo send a crazy mockup of the journal project I am trying to create. He used a lot of things I can learn from. Starting today at 1:50PM.
 
 1-9-20: Finished two codewar problems. Starting to feel better about my problem solving. I still have a long way to go. Thanks to Bo, Potato, Danyonks, and Int for hanging out.  Worked for 210 minutes. 
+
+1-10-20: Might be a short day today. I'll probably do a few code wars and see how I am feeling after that.
