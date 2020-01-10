@@ -59,3 +59,5 @@
 1-8-20: Today went great. Impressed with how far the Journal project has went. I am going to have to learn about file storage now. Hopefully within a week I will be able to have my journal completed over there. Shout out to crowprogramming, Acocordingtobo, Mysticseagull, iamgotenks for hanging out! 167 minutes streamed.
 
 1-9-20: Watched a ton of videos after stream last night and this morning. Bo send a crazy mockup of the journal project I am trying to create. He used a lot of things I can learn from. Starting today at 1:50PM.
+
+1-9-20: Finished two codewar problems. Starting to feel better about my problem solving. I still have a long way to go. Thanks to Bo, Potato, Danyonks, and Int for hanging out.  Worked for 210 minutes. 
