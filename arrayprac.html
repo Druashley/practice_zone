@@ -3,7 +3,7 @@
 
 <body>
 
-	<h2>Working on codewars</h2><p>bathroom</p>
+	<h2>Working on codewars</h2>
 
 	<h2></h2>
 
@@ -23,7 +23,7 @@
 
 	<p id="test"></p>
 
-	
+
 
 	<p id="test1"></p>
 	<p id="test2"></p>
@@ -32,23 +32,111 @@
 
 	<script>
 
-// function squareDigits(num){
-// 	arr = String(num).split('')
-//   for (i = 0; i <= arr.length - 1; i++){
-// 	 arr[i] = Math.pow(arr[i],2);
-//   } console.log(arr)
+// codewars problem https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/javascript
+// function persistence(num) {
+// 	let count = 0;
+
+// while (num > 9) {
+// 	let string = num.toString() 
+// 	let x = 1;
+// 	count += 1;
+// 	for (let i = 0; i < string.length; i++){
+// 		x *= string[i];		
+// 	} num = x; 
+// 	} return count;
+// }
+// console.log(persistence(39))
+
+// regex example from codewars at https://www.codewars.com/kata/52fba66badcd10859f00097e/javascript
+// function disemvowel(str) {
+// return str.replace(/a|e|i|o|u/gi, '');
 // }
 
-function squareDigits(num){
-	arr = String(num).split('');
-	newArr = '';
-  for (i = 0; i <= arr.length - 1; i++){
-	 newArr += Math.pow(arr[i],2);
-  } return newArr
-}
+// console.log(disemvowel('This website is for losers LOL!'))
 
 
-console.log(squareDigits(213));
+// codewars problem found at https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9/javascript
+// function findShort(s){
+// 	return (s.split(' ').sort(function(a, b){return a.length - b.length}))[0].length;
+// }
+
+
+// console.log(findShort("bitcoin take over the world maybe who knows perhaps"))
+// codewars problem from https://www.codewars.com/kata/554e4a2f232cdd87d9000038/javascript
+// function DNAStrand(dna){
+// 	const chart = {
+// 		A: 'T',
+// 		T: 'A',
+// 		G: 'C',
+// 		C: 'G'
+// 	} 
+// 	return (dna.split('')).map(letter => chart[letter]).join('');
+// }
+// first answer below, refactor'd answer above with Bo's help.
+// function DNAStrand(dna) {
+// 	const arr = dna.split('')
+// 	let string = '';
+// 	for (let i = 0; i < arr.length; i++) {
+// 		switch (arr[i]) {
+// 			case 'A':
+// 				string += 'T';
+// 				break;
+// 			case 'T':
+// 				string += 'A';
+// 				break;
+// 			case 'G':
+// 				string += 'C';
+// 				break;
+// 			case 'C':
+// 				string += 'G';
+// 			default:
+// 				break;
+// 		}
+// 	} return string;
+// }
+//		console.log(DNAStrand('GCGC'));
+
+// codewars problem from https://www.codewars.com/kata/55908aad6620c066bc00002a/solutions/javascript
+// function XO(str){
+// 	let x = str.match(/x/gi);
+// 	let o = str.match(/o/gi);
+// 	return (x && x.length) === (o && o.length);
+// }
+// my answer below, easy answer above.
+// function XO(str) {
+//     let sortedArr = str.toLowerCase().split('');
+// 	let xCount = 0;
+// 	let oCount = 0;
+// 	for(i = 0; i < sortedArr.length; i++){
+// 		switch (sortedArr[i]) {
+// 			case 'x':
+// 				xCount += 1;
+// 				break;
+// 			case 'o':
+// 				oCount += 1;
+// 			default:
+// 				break;
+// 		}
+// 	} 
+// 	if (xCount === oCount){
+// 		return true;	
+// 	} else {
+// 		return false;
+// 	}
+// }
+//console.log(XO('xxoo'));
+
+// code wars problem.
+// function squareDigits(num){
+// 	arr = String(num).split('');
+// 	newArr = '';
+//   for (i = 0; i <= arr.length - 1; i++){
+// 	 newArr += Math.pow(arr[i],2);
+//   } return newArr
+// }
+
+
+// console.log(squareDigits(213));
 
 
 // very proud of this problem @ https://www.codewars.com/kata/5467e4d82edf8bbf40000155/javascript
@@ -106,7 +194,7 @@ console.log(squareDigits(213));
 
 
 
-		
+
 // problem from https://www.codewars.com/kata/554b4ac871d6813a03000035/javascript
 // function turnIntoNumbers(stringOfNumbers) {
 // 	sortedMap = stringOfNumbers.split(" ").map(Number);
@@ -134,7 +222,7 @@ console.log(squareDigits(213));
 // 			sLength --;
 // 		} return answer[0];
 // 	}
-		
+
 // }
 
 // console.log(getMiddle(''));

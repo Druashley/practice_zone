@@ -65,3 +65,5 @@
 1-10-20: Might be a short day today. I'll probably do a few code wars and see how I am feeling after that.
 
 1-10-20: Had a great day coding and streaming. Feeling better with the codewars. Still a million miles ahead of me to learn. Looking forward to it. Was able to refactor one code problem really well. Super proud. Worked for 205 minutes today.
+
+1-11-20: Fun day ahead! Looking to code for about 2-3 hours today. Going to focus again on codewars for the moment. I really feel like these are helping me train a lot of the material i have learned
