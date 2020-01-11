@@ -66,4 +66,6 @@
 
 1-10-20: Had a great day coding and streaming. Feeling better with the codewars. Still a million miles ahead of me to learn. Looking forward to it. Was able to refactor one code problem really well. Super proud. Worked for 205 minutes today.
 
-1-11-20: Fun day ahead! Looking to code for about 2-3 hours today. Going to focus again on codewars for the moment. I really feel like these are helping me train a lot of the material i have learned
+1-11-20: Fun day ahead! Looking to code for about 2-3 hours today. Going to focus again on codewars for the moment. I really feel like these are helping me train a lot of the material i have learned.
+
+1-12-20: What a day! bashed my head into the wall working on my first kyu 6. Finished it because of the help from Potato and others! Learned a lot. I need to spend some time learning the reduce method and master it. Quote from Gracefulpotato - "reduce is used when you have an array of values and you want to combine these values somehow in one" Worked for 195 minutes today.
