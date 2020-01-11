@@ -63,3 +63,5 @@
 1-9-20: Finished two codewar problems. Starting to feel better about my problem solving. I still have a long way to go. Thanks to Bo, Potato, Danyonks, and Int for hanging out.  Worked for 210 minutes. 
 
 1-10-20: Might be a short day today. I'll probably do a few code wars and see how I am feeling after that.
+
+1-10-20: Had a great day coding and streaming. Feeling better with the codewars. Still a million miles ahead of me to learn. Looking forward to it. Was able to refactor one code problem really well. Super proud. Worked for 205 minutes today.

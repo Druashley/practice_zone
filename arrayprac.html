@@ -3,7 +3,7 @@
 
 <body>
 
-	<h2>Working on codewars</h2>
+	<h2>Working on codewars</h2><p>bathroom</p>
 
 	<h2></h2>
 
@@ -31,6 +31,79 @@
 
 
 	<script>
+
+// function squareDigits(num){
+// 	arr = String(num).split('')
+//   for (i = 0; i <= arr.length - 1; i++){
+// 	 arr[i] = Math.pow(arr[i],2);
+//   } console.log(arr)
+// }
+
+function squareDigits(num){
+	arr = String(num).split('');
+	newArr = '';
+  for (i = 0; i <= arr.length - 1; i++){
+	 newArr += Math.pow(arr[i],2);
+  } return newArr
+}
+
+
+console.log(squareDigits(213));
+
+
+// very proud of this problem @ https://www.codewars.com/kata/5467e4d82edf8bbf40000155/javascript
+// function descendingOrder(number){
+// 	return Number(String(number).split('').sort(function(a,b){return b-a}).join(''));
+// }
+// first attempt to understand bellow
+// function descendingOrder(number){
+//  let newString = number.toString();
+//   let newArr = newString.split('');
+// 	let sortedArr = newArr.sort();
+// 	let backwardsArr = [];
+// 	console.log(sortedArr[8]);
+// 	let i = sortedArr.length- 1;
+// 	while (i >= 0){
+// 		backwardsArr += sortedArr[i];
+// 		i--;
+// 	} return backwardsArr * 1;
+
+// }
+//console.log(descendingOrder(12381272)); 
+
+// codewars problem from https://www.codewars.com/kata/58880c6e79a0a3e459000004/javascript
+// function houseNumbersSum(inputArray) {
+//   //coding and coding..
+//   let newArry = 0;
+//   for (let i = 0; i < inputArray.length; i++){
+// 	if	( inputArray[i] === 0){
+// 		return newArry;
+// 	}else 
+// 		newArry = newArry + inputArray[i]; 
+//   } return newArry;
+// }
+// Codewars great solution below
+// function houseNumbersSum(inputArray) {
+//   return inputArray.slice(0, inputArray.indexOf(0)).reduce((s, v) => s+v, 0);
+// }
+
+// console.log(houseNumbersSum([5, 1, 2, 3, 0, 1, 5, 0, 2]));
+
+// codewars problem at https://www.codewars.com/kata/5b0d67c1cb35dfa10b0022c7/solutions/javascript
+// function squaresNeeded(grains){
+// 	let chessBoard = []
+// 	for (let i = 0; i <= 64; i++){
+// 		chessBoard.push(Math.pow(2,i))
+// 	} 
+// 	return chessBoard.map(x => x > grains).indexOf(true);
+// }
+//	 below is the easier answer for this problem.
+// function squaresNeeded(grains){
+//   return Math.ceil(Math.log2(grains+1))
+// }
+
+// console.log(squaresNeeded(44))
+
 
 
 		
