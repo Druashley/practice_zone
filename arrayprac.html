@@ -28,9 +28,36 @@
 	<p id="test1"></p>
 	<p id="test2"></p>
 
-
+<input type="number" id ="line-one"></input>
+<input type="number" id="line-two"></input>
+<button type="submit" id="execute"></button>
 
 	<script>
+
+	const lineOne = document.getElementById('line-one');
+	const lineTwo = document.getElementById('line-two');
+	const execute = document.getElementById('execute');
+
+
+	 execute.addEventListener("click", function(){
+		console.log(calc.sub(lineOne.valueAsNumber, lineTwo.valueAsNumber));
+	 });
+
+
+	var calc = {
+		sum: function (a, b){
+			return a + b;
+		},
+		sub: function (a, b){
+			return a - b;
+		},
+		div: function (a, b){
+			return a / b;
+		},
+		multi: function (a, b){
+			return a * b;
+		}
+	}	
 
 // codewars problem https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/javascript
 // function persistence(num) {
