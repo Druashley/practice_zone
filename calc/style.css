@@ -5,21 +5,29 @@ body {
 .container{
     margin: auto;
     width: 240px;
+    height: 300px;
     background-color: yellow;
     display: grid;
     grid-template-columns: 60px 60px 60px 60px;
-    grid-template-rows: 30px 30px;
+    grid-template-rows: 60px 60px 60px 60px 60px;
     grid-auto-flow: column;
+    padding: 2px;
 }
 
 .number{
     background-color: cornflowerblue;
     width: auto;
+    height: auto;
+    color: black;
+    text-shadow: 1px 1px grey ;
 }
 
 .option{
     background-color: lightcoral;
     width:auto;
+    height: auto;
+    color: black;
+    text-shadow: 1px 1px grey;
 }
 
 #answer{

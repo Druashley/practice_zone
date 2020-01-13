@@ -15,20 +15,20 @@ btnMultiply = document.getElementById('btn-multiply');
 btnEquals = document.getElementById('btn-equals');
 answer = document.getElementById('answer');
 
-const regex = /([%*+-/])/
+const regex = /([%*+\-/])/
 
 const calc = {
     divide: function (a, b) {
-        return (a / b);
+        return (a / b).toFixed(2);
     },
     multiply: function (a, b) {
-        return a * b;
+        return (a * b).toFixed(2);
     },
     sum: function (a, b) {
-        return a + b;
+        return (a + b).toFixed(2);
     },
     minus: function (a, b) {
-        return a - b;
+        return (a - b).toFixed(2);
     }
 }
 
@@ -115,9 +115,6 @@ btnMultiply.addEventListener("click", function () {
     }
 });
 
-
-
-
 function calculate(opp, a, b, ) {
     switch (opp) {
         case '+':
@@ -143,5 +140,5 @@ btnEquals.addEventListener("click", function () {
     opp = arr[1];
     b = parseInt(arr[2]);
     calculate(opp, a, b);
+    console.log(arr)
 });
-
