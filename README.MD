@@ -71,3 +71,5 @@
 1-11-20: What a day! bashed my head into the wall working on my first kyu 6. Finished it because of the help from Potato and others! Learned a lot. I need to spend some time learning the reduce method and master it. Quote from Gracefulpotato - "reduce is used when you have an array of values and you want to combine these values somehow in one" Worked for 195 minutes today.
 
 1-12-20: Got a wonderful start on the calc app for TOP. It pretty much works. I need to add a clear function. I need to add a decimal point to the project. I also need to clear up some errors. Coded for 260 minutes today. Things are looking great!
+
+1-13-20: Yesterday may have been the best day yet coding! Things were clicking and huge steps were made in the calc project. I know the tasks that I completed this far are not the most difficult, but seeing my ability to complete those tasks was huge boost in my ego. Today I will continue with the calc project. I need to add some new buttons to it and a few other things. Starting at 1:20PM!
