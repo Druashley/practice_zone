@@ -73,3 +73,5 @@
 1-12-20: Got a wonderful start on the calc app for TOP. It pretty much works. I need to add a clear function. I need to add a decimal point to the project. I also need to clear up some errors. Coded for 260 minutes today. Things are looking great!
 
 1-13-20: Yesterday may have been the best day yet coding! Things were clicking and huge steps were made in the calc project. I know the tasks that I completed this far are not the most difficult, but seeing my ability to complete those tasks was huge boost in my ego. Today I will continue with the calc project. I need to add some new buttons to it and a few other things. Starting at 1:20PM!
+
+1-13-20: worked until 5:04PM. Nearly all major functions of the calc work! Shout out to everyone whoe helped out! Very very very happy with how things went. Looking forward to tomorrow! Worked for 220 minutes.
