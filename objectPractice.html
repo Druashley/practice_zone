@@ -7,12 +7,62 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>object practice</h1>
 <script>
 
-var student = {
-name : "David Rayy",
-sclass : "VI",
-rollno : 12 };
+let hamster = {
+  eat(food) {
+    this.stomach.push(food);
+  }
+};
+
+let speedy = {
+    stomach: [],
+  __proto__: hamster
+};
+
+let lazy = {
+    stomach: [],
+  __proto__: hamster
+};
+
+// This one found the food
+speedy.eat("apple");
+lazy.eat('Carrot')
+alert( speedy.stomach ); // apple
+
+// This one also has it, why? fix please.
+alert( lazy.stomach ); // apple
+
+// function Book(title, author, pages, read){
+//     this.title = title
+//     this.author = author
+//     this.pages = pages
+//     this.read = function (){
+//         if(read === 'no'){
+//             return 'I have not read it.'
+//         } else {
+//             return 'I have read it.'
+//         }
+//     }
+//     this.bookInfo = function (){
+//         return `${this.title} by ${this.author} is ${this.pages}, and ${this.read()}`
+//     }
+    
+// }
+
+// const bookOne = new Book('Almost Transparent Blue', 'Ryu Murakami', 200, 'yes');
+// const bookTwo = new Book('What I talk about when I talk about running', 'Ryu Haruki', 250, 'yes')
+// const bookThree = new Book('The Last Wish: Introducing the Witcher', 'Andrzej Sapkowski', 353, 'no')
+// console.log(bookOne.bookInfo());
+// console.log(bookTwo.bookInfo());
+// console.log(bookThree.bookInfo());
+
+
+// var student = {
+// name : "David Rayy",
+// sclass : "VI",
+// rollno : 12 };
 
 
 //  key = Object.keys(student)
@@ -25,9 +75,6 @@ rollno : 12 };
 // }
 // console.log(studentChecker(key));
 
-
-
-console.log(student);
 
 
 </script>    
