@@ -78,4 +78,7 @@
 
 1-14-20: Today marks 4 weeks of learning ! It has been a great journey. I am looking forward to the next steps! I am not sure what I will be doing today. The calc project is done for the most part. So I think I need to just continue through TOP. Should be a lot of reading and learning today!
 
-1-14-20: Got started on Object Constructors - very interesting. I learned a lot. thank you seagull, and potato for kicking my butt and helping me understand what I was reading. I can tell this will take quite a few hours for me to understand. That is okay. I will get more comfortable with it as time passes. Once again, today marked 28 days (4 weeks) of coding. Coudn't be happier with how I am doing. Thank you everyone. Time worked 240 minutes
+1-14-20: Got started on Object Constructors - very interesting. I learned a lot. thank you seagull, and potato for kicking my butt and helping me understand what I was reading. I can tell this will take quite a few hours for me to understand. That is okay. I will get more comfortable with it as time passes. Once again, today marked 28 days (4 weeks) of coding. Coudn't be happier with how I am doing. Thank you everyone. Time worked 240 minutes.
+
+1-15-20: Late start today. Had things to do. Looking forward to working on more Object Constructors! This library project has been fun so far. 
+
