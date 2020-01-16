@@ -31,3 +31,8 @@ div{
     margin: auto;
     text-align: center;
 }
+#btn-add-book{
+    color: red;
+    display: block;
+    margin: auto;
+}

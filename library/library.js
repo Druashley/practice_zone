@@ -5,7 +5,7 @@ const library = document.getElementById('library')
 const btnAddBook = document.getElementById('btn-add-book')
 const container = document.querySelector('.container')
 
-function Book(title, author, pages, read, ) {
+function Book(title, author, pages, read ) {
     this.title = title;
     this.author = author;
     this.pages = pages;
@@ -93,6 +93,7 @@ function setContainer() {
         var bookPages = document.createElement('p');
         var bookRead = document.createElement('p');
         var button = document.createElement('button');
+        var buttonRead = document.createElement('button')
 
         bookAuthor.textContent = myLibrary[i].author;
         bookTitle.textContent = myLibrary[i].title;
@@ -100,9 +101,11 @@ function setContainer() {
         bookRead.textContent = myLibrary[i].read();
         mainBox.classList.add('book');
         button.classList.add('delete-btn');
+        buttonRead.classList.add('button-Read');
         mainBox.id = i;
         button.value = i;
         button.textContent = 'click me to remove';
+        buttonRead.textContent = 'Click to change read status';
         button.addEventListener('click', removeBook);
         //button.dataset.id =  i;
         mainBox.dataset.id =  i;
@@ -112,6 +115,7 @@ function setContainer() {
         mainBox.appendChild(bookPages);
         mainBox.appendChild(bookRead);
         mainBox.appendChild(button);
+        mainBox.appendChild(buttonRead)
         container.appendChild(mainBox);        
     } 
 }
@@ -125,8 +129,8 @@ function removeBook(num) {
     targets.forEach(t => {
       t.parentElement.removeChild(t);
     })
-    
   }
+
 
 
 myLibrary.push(bookOne);
@@ -146,5 +150,20 @@ function checkLibrary(thisOne){
         }
     } 
 }
+console.log(myLibrary[0])
+console.log(myLibrary[0])
+changeReadStatus();
+console.log();
 
 
+
+//still need to add event listener for button
+function changeReadStatus(){
+    let check = myLibrary[0].read();
+    console.log(check)
+    if ( check = 'I have read this book.'){
+        return myLibrary[0].read('no')
+    } else  {
+        return myLibrary[0].read('yes')
+    }
+}
