@@ -82,3 +82,4 @@
 
 1-15-20: Late start today. Had things to do. Looking forward to working on more Object Constructors! This library project has been fun so far. 
 
+1-15-20: Worked on the library project the entire time. It is going pretty well. Bo helped me learn about class attributes. These seem very strong. I also was able to use console.log to really dig deep into some objects / elements. This is very satisfying. Looking forward to tomorrow's stream. Today I worked for 275 minutes. I think this was my longest stream yet.
