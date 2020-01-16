@@ -1,6 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: gray;
+    text-align: center;
 }
 p{
     padding: 20px;
+}
+div{
+     display: inline-block;
+}
+.container{
+    width: 800px;
+    text-align: center;
+}
+.book{
+    border: 1px black solid;
+    padding: 10px;
+    word-wrap: normal;
+    width: 400px;
+    height: 400px;
+   
+}
+.title{
+    padding:20px;
+    display: block;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
 }
