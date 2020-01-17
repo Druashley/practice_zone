@@ -85,3 +85,5 @@
 1-15-20: Worked on the library project the entire time. It is going pretty well. Bo helped me learn about class attributes. These seem very strong. I also was able to use console.log to really dig deep into some objects / elements. This is very satisfying. Looking forward to tomorrow's stream. Today I worked for 275 minutes. I think this was my longest stream yet.
 
 1-16-20: Almost done with this library project! Should be able to finish it up! I have learned a ton about objects via this project.
+
+1-16-20: Got started on a tic tac toe project. I expect this to take 20 hours or so to get worked out. Factory Functions blew my mind today. I have little understanding on how they fully work. I need to watch and read a bunch more on them. Hopefully I can understand them within a week or so. Today marked 30 days coding. What a ride it has been thus far. Worked for 260 minutes.
