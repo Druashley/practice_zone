@@ -89,3 +89,5 @@
 1-16-20: Got started on a tic tac toe project. I expect this to take 20 hours or so to get worked out. Factory Functions blew my mind today. I have little understanding on how they fully work. I need to watch and read a bunch more on them. Hopefully I can understand them within a week or so. Today marked 30 days coding. What a ride it has been thus far. Worked for 260 minutes.
 
 1-17-20: Today will be a practice day. Going to focus on the iffy things and factory functions I learned yesterday. Will return to the tic tac toe project later once I have praacticed a few days. Might do some codewars today or over the weekend. 
+
+1-17-20: Still having trouble understanding factories. Potato helped me a lot today in breaking them down. I feel like after a few more hours I will start to understand them muchc better. I also worked on the tic-tac-toe project. I struggled at the start of working on it, but started picking up some steam as I Went. I need to make the ruleset next to check for a winner after a move is made. I worked for 210 minutes today.
