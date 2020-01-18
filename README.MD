@@ -91,3 +91,5 @@
 1-17-20: Today will be a practice day. Going to focus on the iffy things and factory functions I learned yesterday. Will return to the tic tac toe project later once I have praacticed a few days. Might do some codewars today or over the weekend. 
 
 1-17-20: Still having trouble understanding factories. Potato helped me a lot today in breaking them down. I feel like after a few more hours I will start to understand them muchc better. I also worked on the tic-tac-toe project. I struggled at the start of working on it, but started picking up some steam as I Went. I need to make the ruleset next to check for a winner after a move is made. I worked for 210 minutes today.
+
+1-18-20: Another great day of coding ahead. I will be tackling the coding project again today. I really think I should be able to get a lot more backend stuff done today. Namely, I would like to get the logic for picking a winner determined. I know it is going to be hard figure out, but I think I can do it! 
