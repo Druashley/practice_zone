@@ -15,18 +15,28 @@
 
   <script>
 
-const personFactory = (name, age, hairColor) => {
-    const iceBreaker = () => console.log(`Hello my name is ${name}, I am ${age} years old, and my haircolor is ${hairColor}.`)
-  return {name, age, hairColor, iceBreaker}
-}
-const potato = personFactory('Potato', 100, 'white');
-const evilPotato = personFactory('EvilPotato', 200, 'red');
+const name = 'Dru'
+const url = 'http://api.icndb.com/jokes/random?firstName=Dru&amp;lastName=Ashley';
+fetch('http://api.icndb.com/jokes/random?firstName=Dru&amp;lastName=Ashley')
+  .then((response) => {
+    return response.json();
+  })
+  .then((myJson) => {
+    console.log(myJson);
+  });
 
-const potatoChecker = () => { return evilPotato.age - potato.age}
+// const personFactory = (name, age, hairColor) => {
+//     const iceBreaker = () => console.log(`Hello my name is ${name}, I am ${age} years old, and my haircolor is ${hairColor}.`)
+//   return {name, age, hairColor, iceBreaker}
+// }
+// const potato = personFactory('Potato', 100, 'white');
+// const evilPotato = personFactory('EvilPotato', 200, 'red');
 
-console.log(potato.iceBreaker())
+// const potatoChecker = () => { return evilPotato.age - potato.age}
 
-console.log(potatoChecker());
+// console.log(potato.iceBreaker())
+
+// console.log(potatoChecker());
 
     // const createUser = ({
     //   userName = 'Anonymous',
