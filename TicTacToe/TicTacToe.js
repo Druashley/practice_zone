@@ -15,7 +15,8 @@ const playerOneName = document.getElementById('player-name');
 const playerOneMarker = document.getElementById('player-marker');
 const playerTwoName = document.getElementById('computer-name');
 const playerTwoMarker = document.getElementById('computer-marker');
-const startGame = document.getElementById('start-game')
+const startGame = document.getElementById('start-game');
+const restartGame = document.getElementById('restart-game');
 
 // player and computer need to take turns - we need an object - an html element to say whos turn it is
 // computer picking will be random for the time
@@ -33,14 +34,18 @@ const playerFactory = (marker, name) => {
     return {marker, name, winPhrase};
 };
 
-const Player = playerFactory(playerOneMarker.value, playerOneName.value);
-const Computer = playerFactory(playerTwoMarker.value, playerTwoName.value);
 
 
-
+let winner = false;
 
 startGame.addEventListener('click', function(){  
+    Gameboard.setPlayer();
+    Gameboard.setComputer();
     gameState();
+});
+
+restartGame.addEventListener('click', function() {
+    Gameboard.resetBoard();
 });
 
 const Gameboard = {
@@ -65,14 +70,23 @@ const Gameboard = {
             columnThree,
             crossOne,
             crossTwo])
+    },
+    setPlayer: setplayer = () => {Player = playerFactory(playerOneMarker.value, playerOneName.value);},
+    setComputer: setcomputer = () => {Computer = playerFactory(playerTwoMarker.value, playerTwoName.value);},
+    resetBoard:  resetBoard = () =>{
+        winner = false;
+        Gameboard.board = ['','','','','','','','',''];
+        boardSpot.forEach(spot => {
+            spot.textContent = '';
+        });
     }
 }
 
-var gameState = (function () {
+var gameState = (function () { 
+    // This defines marker in the global space. I should fix this.
     let turn = 0;
     function _findTurn() {
         if (turn % 2 === 0) {
-            whosTurn = 'player';
             gameStateDisplay.textContent = Player.name + '\'s turn';
             marker = Player.marker;
         } else {
@@ -86,11 +100,11 @@ var gameState = (function () {
 }());
 
 function placeMark(e) {
-    if (!e.target.textContent) {
+    if (!e.target.textContent && !winner) {
         e.target.textContent = marker
         Gameboard.board.splice((Number(e.target.attributes.value.value) - 1), 1, marker)
         gameState();
-        getWinner();
+        getWinner();        
     }
 };
 
@@ -98,16 +112,26 @@ boardSpot.forEach(item => {
     item.addEventListener('click', placeMark)
 });
 
+
 function getWinner() {
     for (let i = 0; i < Gameboard.board.length; i++) {
         if (Gameboard.boardSpots()[i] == (Player.marker + Player.marker + Player.marker)) {
+            winner = true;
             return gameStateDisplay.textContent = Player.winPhrase();
         }
         if (Gameboard.boardSpots()[i] == (Computer.marker + Computer.marker + Computer.marker)) {
+            winner = true;
             return gameStateDisplay.textContent = Computer.winPhrase();
         }
+    }   if (!Gameboard.board.includes("")){
+        winner = true;
+        return gameStateDisplay.textContent = 'Tie, click the restart button to play again.'
     }
 }
+
+
+
+
 
 
 
