@@ -77,14 +77,14 @@ const Gameboard = {
         winner = false;
         Gameboard.board = ['','','','','','','','',''];
         boardSpot.forEach(spot => {
-            spot.textContent = '';
+        spot.textContent = '';
         });
     }
 }
 
 var gameState = (function () { 
     // This defines marker in the global space. I should fix this.
-    let turn = 0;
+    let turn = Math.floor(Math.random() * 2) + 1  
     function _findTurn() {
         if (turn % 2 === 0) {
             gameStateDisplay.textContent = Player.name + '\'s turn';
@@ -149,11 +149,3 @@ function getWinner() {
 //     }
 // }());
 
-// the baord is going to be made into html
-// we can use textContent to mark the spot
-
-// this is an example of how we will manipulate the board
-// Gameboard.board.splice(2, 1, Computer.marker)
-// spotOne.textContent = Player.marker;
-
-// const changeOne = () => { spotOne.textContent = Player.marker}; 

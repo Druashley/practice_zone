@@ -12,6 +12,9 @@
 <body>
     <h1 class='title'>Tic Tac Toe</h1>
     <h2 id='game-state'>Click the Start Game button to begin</h2>
+
+
+
     <container class="container" id='container'>
         <div class='boardspot' id='spot-one' value='1'></div>
         <div class='boardspot' id='spot-two' value='2'></div>
@@ -23,22 +26,23 @@
         <div class='boardspot' id='spot-eight' value='8'></div>
         <div class='boardspot' id='spot-nine' value='9'></div>
     </container>
-    <div id="player-Container">
-        <input type='text' id='player-name' placeholder='Player one name'>
-        <input id='player-marker' placeholder='Player one mark'>
 
-    </div>
-    <div id="player-Container">
-        <input type='text' id='computer-name' placeholder='Player two name'>
-        <input id='computer-marker' placeholder='Player two mark'>
 
-    </div>
     <button id='start-game'>Start Game</button>
     <button id='restart-game'>Restart Game</button>
 
+    <div id="player-Container">
+        <input class='input-field' type='text' id='player-name' placeholder='Player one name'>
+        <input class='input-field' id='player-marker' placeholder='Player one mark'>
+
+    </div>
+    <div id="player-Container">
+        <input class='input-field' type='text' id='computer-name' placeholder='Player two name'>
+        <input class='input-field' id='computer-marker' placeholder='Player two mark'>
+
+    </div>
 
     <script src="TicTacToe.js"></script>
 </body>
 
 </html>
-

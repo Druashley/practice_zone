@@ -1,25 +1,63 @@
 body {
-    background-color: grey;
+    background-color: #116357;
+    text-align: center;
 }
 
 .title{
     border: 1px black solid;
     display: inline-block;
     margin: auto;
+    color: #E1EBEA;
+    text-align: center;
 }
 .container{
     margin: auto;
     width: 300px;
-    height: 360px;
+    height: 300px;
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px;
     grid-auto-flow: column;
-    padding-top: 1in;   
-    
+    padding-top: 20px;   
 }
 
 .boardspot{
+    background-color: #0c4a41;
     border: 1px black solid;
     text-align: center;
+    font-size: 50px;
+    padding: 10px;
+
+}
+
+.boardspot:hover{
+    border: 2px black dotted;
+}
+
+.input-field:hover{
+    background-color: #E1EBEA;
+}
+
+.player-Container{
+    margin: auto;
+}
+
+.input-field{
+    color: #571163;
+    border-radius: 3%;
+}
+#game-state{
+    text-decoration: wavy;
+    color: #E1EBEA;
+}
+
+button{
+    margin: 10px;
+    padding: 5px;
+    color: #571163;
+    border-radius: 2%;
+}
+
+button:hover{
+    background-color: #E1EBEA;
 }
