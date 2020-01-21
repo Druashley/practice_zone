@@ -17,17 +17,10 @@ const playerTwoName = document.getElementById('computer-name');
 const playerTwoMarker = document.getElementById('computer-marker');
 const startGame = document.getElementById('start-game');
 const restartGame = document.getElementById('restart-game');
+const playerScoreboard = document.querySelector('.scoreboard-player');
+const computerScoreboard = document.querySelector('.scoreboard-computer');
 
-// player and computer need to take turns - we need an object - an html element to say whos turn it is
-// computer picking will be random for the time
-// 
 
-// const Player = {
-//     marker: 'x'
-// }
-// const Computer = {
-//     marker: 'o'
-// }
 
 const playerFactory = (marker, name) => {
     const winPhrase = () => gameStateDisplay.textContent = name + ' won the game.'
@@ -52,6 +45,7 @@ const Gameboard = {
     board: [spotOne.textContent, spotTwo.textContent, spotThree.textContent,
     spotFour.textContent, spotFive.textContent, spotSix.textContent,
     spotSeven.textContent, spotEight.textContent, spotNine.textContent],
+    grid: [spotOne, spotTwo, spotThree, spotFour, spotFive, spotSix, spotSeven, spotEight, spotNine],
     boardSpots: function () {
        const rowOne = Gameboard.board[0] + Gameboard.board[3] + Gameboard.board[6]
        const rowTwo = Gameboard.board[1] + Gameboard.board[4] + Gameboard.board[7]
@@ -79,8 +73,9 @@ const Gameboard = {
         boardSpot.forEach(spot => {
         spot.textContent = '';
         });
-    }
-}
+    },
+}    
+
 
 var gameState = (function () { 
     // This defines marker in the global space. I should fix this.
@@ -129,7 +124,16 @@ function getWinner() {
     }
 }
 
+function randomComputer(){
+    let computerChoice = Math.floor(Math.random() * 9) ;
+    if (Gameboard.grid[computerChoice].textContent == ''){
+    Gameboard.board.splice(computerChoice, 1, marker );
+    Gameboard.grid[computerChoice].textContent = marker;
+    } else {
+        randomComputer();
+    }
 
+}
 
 
 
