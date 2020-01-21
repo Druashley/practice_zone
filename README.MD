@@ -101,3 +101,5 @@
 1-20-20: Starting my day late at 6PM. Today I am going to focus on cleaning up the tic tac toe project! 
 
 1-20-20: Finished the tic tac toe project for now. Learned a crap ton from it. I made a randomizer to pick spots. I did not put it in the html though. It just exists in the js file. I started learning about es6 today. Classes semed a bit confusing, I bet it will take a few weeks to understand that like the rest of this stuff has. Next I learned about npx webpackage. Took me 50 minutes just to figure out that I had a spelling error compared to the example I was working off. That was funny. rough though. Happy with how today went. Excited for whats to come. These modules seem critical to my succsess. Looking forward to coding tomorrow. Worked for 180 minutes today. 
+
+1-21-20: Starting today at 11:35PM. Feeling pretty tired at the moment. I am taking a step back from what I was working on yesterday and getting back at the main track web dev 101 on TOP. It looks like I will be doing a bit of ruby today. I started today 11:30AM.
