@@ -98,4 +98,6 @@
 
 1-19-20: BOOM tic tac toe's logic has been completed! I have built out just about everything needed for a tic tac toe game. Very happy with how to process went. Took a few days to get the project to this point, but I have put together a lot of useful techniques in it! Tomorrow I hope to make it pretty. Going to focus on the CSS of the project tomorrow. Ending up doing some css work later at night for another hour. Still have so much to learn CSS and HTML. I would say my general understanding of Javascript helps me understand css and html ideas much easier. Worked for 183 mintues today! 
 
-1-20-20: Starting my day late at 6PM. Today I am going to focus on cleaning up the tic tac toe project!
+1-20-20: Starting my day late at 6PM. Today I am going to focus on cleaning up the tic tac toe project! 
+
+1-20-20: Finished the tic tac toe project for now. Learned a crap ton from it. I made a randomizer to pick spots. I did not put it in the html though. It just exists in the js file. I started learning about es6 today. Classes semed a bit confusing, I bet it will take a few weeks to understand that like the rest of this stuff has. Next I learned about npx webpackage. Took me 50 minutes just to figure out that I had a spelling error compared to the example I was working off. That was funny. rough though. Happy with how today went. Excited for whats to come. These modules seem critical to my succsess. Looking forward to coding tomorrow. Worked for 180 minutes today. 
