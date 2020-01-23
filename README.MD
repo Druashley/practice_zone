@@ -105,3 +105,5 @@
 1-21-20: Starting today at 11:35PM. Feeling pretty tired at the moment. I am taking a step back from what I was working on yesterday and getting back at the main track web dev 101 on TOP. It looks like I will be doing a bit of ruby today. Worked for about 60 minutes on this. Going to stop here for now, and get the stream going. I will probably recreate that journal idea I had before using the techniques I have learned this far. I may also do some codewars. not sure yet.
 
 1-21-20: Tried to set up the journal with some backend server stuff. VERY VERY confusing. Tons to learn. Thank you Bo, Potato, and Seagull for helping me out as much as they could. Worked for another 3 hours on this.
+
+1-22-20: Today was my first day besides christmas that I did not code super hard. I did two codewars problems. A level 7 and a level 8. Nothing crazy, but I wanted to get something done. I coded for about 45 minutes. A very light day.
