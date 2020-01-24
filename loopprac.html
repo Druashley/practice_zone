@@ -10,10 +10,78 @@
   <p></p>
 
   <p id="demo"></p>
-  <button id="test-button">/button>
-    <container id="box"></container>
+  <button id="test-button"></button>
+  <container id="box"></container>
 
-    <script>
+  <script>
+
+function top3(products, amounts, prices) {
+let revenue = [];
+let scale = '';
+
+for (i = 0; i < amounts.length; i++){
+  revenue[i] = amounts[i] * prices[i];
+}
+
+
+
+return largest
+
+}
+
+console.log(top3(["Computer", "Cell Phones", "Vacuum Cleaner"], [3, 24, 8], [199, 299, 399]))
+
+
+// code wars problem from https://www.codewars.com/kata/55cbd4ba903825f7970000f5/javascript
+// function getGrade (s1, s2, s3) {
+//  const mean = (s1 + s2 + s3) / 3;
+//  if (mean >= 90){
+//    return 'A'
+//  } else if (mean >= 80){
+//    return 'B';
+//   } else if ( mean >= 70){
+//     return 'C';
+//   } else if (mean >= 60) {
+//     return 'D';
+//   } else {
+//     return 'F';
+//   }
+// }
+
+
+    // https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/javascript
+    // function removeChar(str) {
+    //   const stringSplit = str.split("")
+    //   stringSplit.pop()
+    //   stringSplit.shift()
+    //   return stringSplit.join('')
+    // };
+
+    // console.log(removeChar('BarryCarter'));
+
+// codewars problem from https://www.codewars.com/kata/5390bac347d09b7da40006f6/javascript
+// String.prototype.toJadenCase = function () {
+//   let newArr = [];
+//   let splitString = this.split(' ');
+//   for (let i = 0; i < splitString.length; i++){
+//       //  newArr[i] = splitString[i][0].toUpperCase()
+//        newArr[i] = splitString[i].charAt(0).toUpperCase() + splitString[i].substr(1)
+//   } return newArr.join(' ')
+// };
+
+
+
+
+// function jadenCase() {
+//   var str = "How can mirrors be real if our eyes aren't real";
+//   let newArr = [];
+//   let splitString = str.split(' ');
+
+//   for (let i = 0; i < splitString.length; i++){
+//       //  newArr[i] = splitString[i][0].toUpperCase()
+//        newArr[i] = splitString[i].charAt(0).toUpperCase() + splitString[i].substr(1)
+//   } return newArr.join(' ')
+// }
 
 
 
@@ -41,7 +109,7 @@
       //   return year;
 
       // }
-=
+
 // codewars problem from https://www.codewars.com/kata/55a2d7ebe362935a210000b2/javascript
 // class SmallestIntegerFinder {
 //   findSmallestInt(args) {
@@ -448,7 +516,7 @@
 
 
 
-    </script>
+  </script>
 
 </body>
 
