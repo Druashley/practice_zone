@@ -113,3 +113,5 @@
 1-24-20: Happy Freaking Friday, not sure what the goal is for today. I would like to continue practicing some code. Maybe do some codewars or maybe continue on TOP. Lets make the most of the day!
 
 1-24-20: Today was a good day coding. I need to dedicate the next few hours to really understand es6 modules. I believe I Can do it with enough time. spend 210 minutes coding today.
+
+1-25-20: Raise hell praise dale! Going to work on understanding es6 modules all day. Lets kick butt!
