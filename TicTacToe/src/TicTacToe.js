@@ -1,4 +1,7 @@
 // js for tic tac toe here
+import getWinner from '../src/winner.js'
+
+
 const container = document.getElementById('container');
 const spotOne = document.getElementById('spot-one');
 const spotTwo = document.getElementById('spot-two');
@@ -27,6 +30,9 @@ const playerFactory = (marker, name) => {
     return {marker, name, winPhrase};
 };
 
+let Player;
+let Computer;
+let marker;
 
 
 let winner = false;
@@ -65,9 +71,9 @@ const Gameboard = {
             crossOne,
             crossTwo])
     },
-    setPlayer: setplayer = () => {Player = playerFactory(playerOneMarker.value, playerOneName.value);},
-    setComputer: setcomputer = () => {Computer = playerFactory(playerTwoMarker.value, playerTwoName.value);},
-    resetBoard:  resetBoard = () =>{
+    setPlayer:  () => { Player = playerFactory(playerOneMarker.value, playerOneName.value);},
+    setComputer: () => { Computer = playerFactory(playerTwoMarker.value, playerTwoName.value);},
+    resetBoard:  () =>{
         winner = false;
         Gameboard.board = ['','','','','','','','',''];
         boardSpot.forEach(spot => {
@@ -99,7 +105,7 @@ function placeMark(e) {
         e.target.textContent = marker
         Gameboard.board.splice((Number(e.target.attributes.value.value) - 1), 1, marker)
         gameState();
-        getWinner();        
+        getWinner(Gameboard, Player, Computer, winner, gameStateDisplay);        
     }
 };
 
@@ -108,21 +114,21 @@ boardSpot.forEach(item => {
 });
 
 
-function getWinner() {
-    for (let i = 0; i < Gameboard.board.length; i++) {
-        if (Gameboard.boardSpots()[i] == (Player.marker + Player.marker + Player.marker)) {
-            winner = true;
-            return gameStateDisplay.textContent = Player.winPhrase();
-        }
-        if (Gameboard.boardSpots()[i] == (Computer.marker + Computer.marker + Computer.marker)) {
-            winner = true;
-            return gameStateDisplay.textContent = Computer.winPhrase();
-        }
-    }   if (!Gameboard.board.includes("")){
-        winner = true;
-        return gameStateDisplay.textContent = 'Tie, click the restart button to play again.'
-    }
-}
+// function getWinner() {
+//     for (let i = 0; i < Gameboard.board.length; i++) {
+//         if (Gameboard.boardSpots()[i] == (Player.marker + Player.marker + Player.marker)) {
+//             winner = true;
+//             return gameStateDisplay.textContent = Player.winPhrase();
+//         }
+//         if (Gameboard.boardSpots()[i] == (Computer.marker + Computer.marker + Computer.marker)) {
+//             winner = true;
+//             return gameStateDisplay.textContent = Computer.winPhrase();
+//         }
+//     }   if (!Gameboard.board.includes("")){
+//         winner = true;
+//         return gameStateDisplay.textContent = 'Tie, click the restart button to play again.'
+//     }
+// }
 
 function randomComputer(){
     let computerChoice = Math.floor(Math.random() * 9) ;
