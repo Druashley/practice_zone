@@ -111,3 +111,5 @@
 1-23-20: Late night stream tonight. Not sure what I am going to work on. Maybe just some code wars! worked on a few problems for a bit. Got a little bit done. Nothing crazy. Happy with how things went! Worked for 110 minutes today.  Tomorrow I start going hard again! 
 
 1-24-20: Happy Freaking Friday, not sure what the goal is for today. I would like to continue practicing some code. Maybe do some codewars or maybe continue on TOP. Lets make the most of the day!
+
+1-24-20: Today was a good day coding. I need to dedicate the next few hours to really understand es6 modules. I believe I Can do it with enough time. spend 210 minutes coding today.
