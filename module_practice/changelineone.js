@@ -1,7 +1,14 @@
-import { lineOne } from "./domElements";
+import { lineOne } from "./domElements.js";
+
+let count = 0;
 
 const changeLineOne = function testOne() {
-    lineOne.textContent = 'Did this Export and import work?'
+    lineOne.textContent = 'This is line one'
 }
 
-export { changeLineOne }
+const buttonPress = () => {
+    count++
+    lineOne.textContent = `The button has been pressed ${count} times`
+}
+
+export { changeLineOne, buttonPress, count }
