@@ -114,4 +114,6 @@
 
 1-24-20: Today was a good day coding. I need to dedicate the next few hours to really understand es6 modules. I believe I Can do it with enough time. spend 210 minutes coding today.
 
-1-25-20: Raise hell praise dale! Going to work on understanding es6 modules all day. Lets kick butt!
+1-25-20: Raise hell praise dale! Going to work on understanding es6 modules all day. Lets kick butt! 
+
+1-25-20: Feeling much better about ES6 modules after working on them. I finished another kyu 6 on codewars. With some help from glEnd and Bo I was able to refactor it to one line! Very happy about that. Going to get started on the resturant page tomorrow for TOP. I am thinking it will take me about 4 days to complete this project! worked for 130 minutes today.
