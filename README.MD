@@ -119,3 +119,5 @@
 1-25-20: Feeling much better about ES6 modules after working on them. I finished another kyu 6 on codewars. With some help from glEnd and Bo I was able to refactor it to one line! Very happy about that. Going to get started on the resturant page tomorrow for TOP. I am thinking it will take me about 4 days to complete this project! worked for 130 minutes today.
 
 1-26-20: Crazy day. Sad day for basketball. I am going to code for around 2 hours today. I plan to get started on this resturant page today.
+
+1-26-20: Worked on the restaurant page for TOP. I am able to use ES6 modules really well thus far. Next up I  will be making event listeners to the links to reset the page and update the body contents. Really happy with what I was able to make today! Spent 210 minutes working today.
