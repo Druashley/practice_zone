@@ -127,3 +127,5 @@
 1-27-20: Worked on the KETO JOES page for a bit. I was able to create a lot of on event listeners today. The website is coming along very nicely. Looking forward to coding tomorrow. Worked for 220 minutes today.
 
 1-28-20: Another day! Lets get the rest of this KETO JOES page flushed out. I would like to maybe get to adding some 'fun' things to it by tomorrow or the end of today. Feeling fairly weak today, I am not sure how long I will code. 
+
+1-28:20: Worked on codewars after finishing up KETO JOES. Looked at some of the other TOP people's pages. Honestly, mine does not look that bad! I am very happy with what I made! Coded for 170 minutes today. Back at it again tomorrow.
