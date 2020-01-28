@@ -125,3 +125,5 @@
 1-27-20: Lets make today great. Yesterday's shock in the basketball world motivates me to be great. No reason not to give this coding thing a real shot. Excited to work on this resturant page some more. I got a bunch more to do with it, but for now it is looking pretty great!.
 
 1-27-20: Worked on the KETO JOES page for a bit. I was able to create a lot of on event listeners today. The website is coming along very nicely. Looking forward to coding tomorrow. Worked for 220 minutes today.
+
+1-28-20: Another day! Lets get the rest of this KETO JOES page flushed out. I would like to maybe get to adding some 'fun' things to it by tomorrow or the end of today. Feeling fairly weak today, I am not sure how long I will code. 
