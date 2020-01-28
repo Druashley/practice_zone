@@ -123,3 +123,5 @@
 1-26-20: Worked on the restaurant page for TOP. I am able to use ES6 modules really well thus far. Next up I  will be making event listeners to the links to reset the page and update the body contents. Really happy with what I was able to make today! Spent 210 minutes working today.
 
 1-27-20: Lets make today great. Yesterday's shock in the basketball world motivates me to be great. No reason not to give this coding thing a real shot. Excited to work on this resturant page some more. I got a bunch more to do with it, but for now it is looking pretty great!.
+
+1-27-20: Worked on the KETO JOES page for a bit. I was able to create a lot of on event listeners today. The website is coming along very nicely. Looking forward to coding tomorrow. Worked for 220 minutes today.
