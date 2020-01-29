@@ -129,3 +129,5 @@
 1-28-20: Another day! Lets get the rest of this KETO JOES page flushed out. I would like to maybe get to adding some 'fun' things to it by tomorrow or the end of today. Feeling fairly weak today, I am not sure how long I will code. 
 
 1-28:20: Worked on codewars after finishing up KETO JOES. Looked at some of the other TOP people's pages. Honestly, mine does not look that bad! I am very happy with what I made! Coded for 170 minutes today. Back at it again tomorrow.
+
+1-29-20: What to do... Not sure what I want to work on today. The next assignment on TOP is a to-do list. I really feel as if I need to spend a couple days practicing what I have been learning. I might try and add some content to the KETO JOES website to practice some of these skills. I am not sure what I could add though. 
