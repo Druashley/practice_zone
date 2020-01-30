@@ -131,3 +131,5 @@
 1-28:20: Worked on codewars after finishing up KETO JOES. Looked at some of the other TOP people's pages. Honestly, mine does not look that bad! I am very happy with what I made! Coded for 170 minutes today. Back at it again tomorrow.
 
 1-29-20: What to do... Not sure what I want to work on today. The next assignment on TOP is a to-do list. I really feel as if I need to spend a couple days practicing what I have been learning. I might try and add some content to the KETO JOES website to practice some of these skills. I am not sure what I could add though. 
+
+1-29-20: Got my first Asych API thing set up for KETO JOES. Super happy with the results. It pulls three things from an API. An image, a name, and a description. I used this to create a 'recipe showcase' tab on the website. Really happy with all of the skills  I learned to do it. Shoutout to Jackzeys for helping me understand the api fetch and all of that jazz! Thanks to Eiswine again for the promotion ! worked for 230 minutes today! Back at it again tomorrow. Tomorrow I Want to start with the codewars wub problem.

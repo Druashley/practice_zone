@@ -16,14 +16,25 @@
   <script>
 
 
+// code wars problem https://www.codewars.com/kata/551dc350bf4e526099000ae5/train/javascript
+function songDecoder(song){
+  const regex = /(WUB)/g;
+  const spaceRegex = /(  )/g
+  const newSong =  song.replace(regex, ' ')
+  
+  
 
 
-// function dirReduc(arr){
-//   // 
+  // const trimedSong = '';
+
+  // for (let i = 0; i < newSong.length; i++){
+  //   trimedSong += 
+  // }
+    return newSong.replace(spaceRegex, ' ').trim()
+}
 
 
-// }
-// console.log(dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]))
+console.log(songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB"))
 
 // // codewars problem from https://www.codewars.com/kata/54da539698b8a2ad76000228/solutions/javascript
 // function isValidWalk(walk) {
