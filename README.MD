@@ -137,3 +137,5 @@
 1-30-20: Today has been a great Thursday! Looking forward to a day of coding. I am thinking I will continue on some codewars and maybe work on the menu page on Keto Joes!
 
 1-30-20: Short stream today. I have a bunch of reading to do. Done with KETO JOES for now. Super pumped with how it turned out. Got it posted github now too! Hopefully will get through the reading tonight / tomorrow morning. Worked for 105 minutes today.
+
+1-31-20: Focusing on codewars today. Probably won't stream for too too long. 
