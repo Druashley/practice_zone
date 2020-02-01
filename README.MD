@@ -138,4 +138,4 @@
 
 1-30-20: Short stream today. I have a bunch of reading to do. Done with KETO JOES for now. Super pumped with how it turned out. Got it posted github now too! Hopefully will get through the reading tonight / tomorrow morning. Worked for 105 minutes today.
 
-1-31-20: Focusing on codewars today. Probably won't stream for too too long. 
+1-31-20: Focusing on codewars today. Probably won't stream for too too long.  Both of these statements turned out to be lies lol! Created a wow target tracket! Very happy with what it does. I still have to stylize it and work some other features. But for 3 hours of work, I am blown away at what was able to be made.Back at it again tomorrow. Worked for 198 minutes today. 
