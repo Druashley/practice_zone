@@ -141,3 +141,5 @@
 1-31-20: Focusing on codewars today. Probably won't stream for too too long.  Both of these statements turned out to be lies lol! Created a wow target tracket! Very happy with what it does. I still have to stylize it and work some other features. But for 3 hours of work, I am blown away at what was able to be made.Back at it again tomorrow. Worked for 198 minutes today. 
 
 2-1-20: First day of February! Tomorrow is the super bowl. Going to continue to work on thie wow raid tracker thing. Happy with what I got done yesterday. Stylized the wow tracker. Happy with what I was able to put together. This is the first thing I have made that doesn't look too bad lol. Adding a background to the html on repeat and then giving divs a transparent effect is pretty cool! I am sure I will use this in the future. Worked for 120 minutes today. 
+
+2-3-20: Took yesterday off to watch the superbowl. What a great game! KC won it. Today I am going to focus on adding some more features to the wow raid thingy I have made. I also have a job interview tomorrow! Very excited for that.
