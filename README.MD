@@ -144,4 +144,4 @@
 
 2-3-20: Took yesterday off to watch the superbowl. What a great game! KC won it. Today I am going to focus on adding some more features to the wow raid thingy I have made. I also have a job interview tomorrow! Very excited for that. Made my biggest object builder to date for the project today! Very happy! glEnd2 was a huge help during that. Also, thank you to Jujuju2 for coming in and helping me out. Learning and using new techniques every day! Also, learned about the 'get' command. Worked for 210 minutes today.
 
-2-4-20: Happy freaking Tuesday! Pumped for the future! Moving forward I will have to stream a little later. Going to work on the raid target tracker more today. 
+2-4-20: Happy freaking Tuesday! Pumped for the future! Moving forward I will have to stream a little later. Going to work on the raid target tracker more today. Short stream today, since I start work tomorrow. Worked on the wow page some more. Made a copy paste button and added my first transition animation with the helm of glEnd2. Worked for 70 minutes today!
