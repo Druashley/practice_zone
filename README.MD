@@ -150,4 +150,6 @@
 
 2-8-20: Back into the swing of things! Going to continue working on this wow target tracker page. This past Thursday was the first time I got to use it. I thought it was helpful. Who knows what the raid thought of it. Coded for 100 minutes today.
 
-2-10-20: Was feeling a bit sick yesterday and did not code. Ready to get back into a groove since starting my new job. I will probably do just simple codewars for tonight.
+2-10-20: Was feeling a bit sick yesterday and did not code. Ready to get back into a groove since starting my new job. I will probably do just simple codewars for tonight. 
+
+2-10-20: Did codewars for 90 minutes. Feeling good. Don't want to get burnt out with the new job and coding. Easing back into coding after having a wild past week. worked for 100 minutes.
