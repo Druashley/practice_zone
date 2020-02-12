@@ -154,4 +154,4 @@
 
 2-10-20: Did codewars for 90 minutes. Feeling good. Don't want to get burnt out with the new job and coding. Easing back into coding after having a wild past week. worked for 100 minutes.
 
-2-11-10: Hoping to get in a quick hour of coding. Might be able to code later tonight. Going to do codewars again today.
+2-11-10: Hoping to get in a quick hour of coding. Might be able to code later tonight. Going to do codewars again today. . Feeling better with Regex everyday. I have a long way to go though. Coded for 60 minutes on some codewars.
