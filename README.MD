@@ -153,3 +153,5 @@
 2-10-20: Was feeling a bit sick yesterday and did not code. Ready to get back into a groove since starting my new job. I will probably do just simple codewars for tonight. 
 
 2-10-20: Did codewars for 90 minutes. Feeling good. Don't want to get burnt out with the new job and coding. Easing back into coding after having a wild past week. worked for 100 minutes.
+
+2-11-10: Hoping to get in a quick hour of coding. Might be able to code later tonight. Going to do codewars again today.
