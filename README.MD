@@ -157,3 +157,5 @@
 2-11-10: Hoping to get in a quick hour of coding. Might be able to code later tonight. Going to do codewars again today. . Feeling better with Regex everyday. I have a long way to go though. Coded for 60 minutes on some codewars.
 
 2-19-20: Been a crazy start to the new job. Since I  began I haven't had much free time. Got sick. Chippers went missing, and Paul had heart surgery. I should be able to start coding at healthy rate again. Starting today at 3:51 PM. Going to start the to-do project today.
+
+2-20-20: Got the macbook set up today! I do have a few more VScode things I gotta set up. But that should only take a moment. Otherwise, I think I got most everything set up. I started working on the todo list a little as a test to see if the mac was working. I am not sure how I am going to make an object have a method that spits out something I can append to another dom element. I felt like I was almost there, but it wasn't working just right.. Might take some googling and some more practice. Anyways, Very happy with the mac purchase. If we count set up. I coded for about 120 minutes today. Otherwise, it was only 30 minutes of real coding. hahaw
