@@ -156,4 +156,6 @@
 
 2-11-10: Hoping to get in a quick hour of coding. Might be able to code later tonight. Going to do codewars again today. . Feeling better with Regex everyday. I have a long way to go though. Coded for 60 minutes on some codewars.
 
-2-19-20: Been a crazy start to the new job. Since I  began I haven't had much free time. Got sick. Chippers went missing, and Paul had heart surgery. I should be able to start coding at healthy rate again. Starting today at 3:51 PM. Going to start the to-do project today.
+2-19-20: Been a crazy start to the new job. Since I  began I haven't had much free time. Got sick. Chippers went missing, and Paul had heart surgery. I should be able to start coding at healthy rate again. Starting today at 3:51 PM. Going to start the to-do project today. 
+
+2-19-20: Felt great to code again. Very happy with what I was able to get started today. Seagull showed me WakaTime! Wakatime will keep track of what I code in VSCode, super bad ass. Got a healthy base started for the todo list project. I would imagine this will take 30-40 hours to start to feel good about.  Worked for 120 minutes today! Back at it again Friday the 21st!
