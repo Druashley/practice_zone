@@ -168,3 +168,5 @@
 2-23-20: Got the input field set up for this todo list! All fields work for the most part. I need to get the due date and the priority set up still. Super pumped with the results thus far. 
 
 3-25-20: Wow it has been about a month since I last coded. I have been at my new job almost 60 days now. After I started my new job, step dad had heart surgery and then fell and fractured his back. Been a crazy time taking care of all of that, covid-19 shutting everything down, and working. Hoping to get back into coding. Not going to lie Escape from Tarkov has been the most addictive game I have played in a long time. Blown away at how fun the game is. Ready to code a little though. Not sure if I am going to continue on the todo project like I was working on. I mean it has been a month... I might just start the html/css portion of TOP. Going to ease back into this.
+
+3-26-20: Two days in a row for the first time in a bit! Really enjoying the start to the HTML/CSS section on TOP. Excited to learn today.
