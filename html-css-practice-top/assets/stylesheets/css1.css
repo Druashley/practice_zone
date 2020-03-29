@@ -133,6 +133,7 @@ Primary header
   float: left;
 }
 
+
 /*
 ================
 Primary footer
@@ -176,4 +177,18 @@ Home
 
 .hero {
   padding: 22px 80px 66px 80px;
+}
+
+
+/*
+==========
+Images
+==========
+*/
+
+.teaser img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%;
 }
