@@ -172,3 +172,5 @@
 3-26-20: Two days in a row for the first time in a bit! Really enjoying the start to the HTML/CSS section on TOP. Excited to learn today.
 
 3-28-20: Did not get any coding in yesterday. Only did about 30 minutes of reading tonight. It is the GF's and my 2 year mark this weekend! (really the first.) So I have been focused on that more! Excited to code more soon!
+
+3-30-20: Started creating a replica of youtube. Not intended to be Javascript related. Simple css and HTML. It is looking good so far. Happy with the results.
